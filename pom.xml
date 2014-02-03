@@ -346,6 +346,27 @@
 			<version>1.1.1.CR2</version>
 		</dependency>
 
-	</dependencies>
+        <!-- stomp + json -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.2.4</version>
+            <scope>compile</scope>
+        </dependency>
 
+        <dependency>
+            <groupId>net.intelie.gozirra</groupId>
+            <artifactId>gozirra</artifactId>
+            <version>0.6</version>
+        </dependency>
+    </dependencies>
+
+    <!-- gozirra -->
+    <repositories>
+        <repository>
+            <id>intelie-maven-repo</id>
+            <name>intelie repository</name>
+            <url>https://raw.github.com/intelie/maven-public/master/releases</url>
+        </repository>
+    </repositories>
 </project>
